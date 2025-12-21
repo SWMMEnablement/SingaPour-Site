@@ -1,29 +1,28 @@
 import { motion } from "framer-motion";
 import { Droplet, TrendingUp, ShieldCheck } from "lucide-react";
-import logo from "@assets/generated_images/stylized_merlion_circuit_board_logo.png";
+import conceptDiagram from "@assets/image_1766299390876.png";
 
 export default function About() {
   return (
     <section id="about" className="py-24 bg-slate-50 dark:bg-slate-950 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
-          <div className="lg:w-1/3 flex justify-center">
+        <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="lg:w-1/2">
             <motion.div 
-              initial={{ rotate: -10, opacity: 0 }}
-              whileInView={{ rotate: 0, opacity: 1 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="relative w-64 h-64 md:w-80 md:h-80"
+              className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900"
             >
-              <div className="absolute inset-0 bg-brand-gold/20 rounded-full blur-3xl animate-pulse-glow"></div>
               <img 
-                src={logo} 
-                alt="SingaPourApps Brand Mark" 
-                className="relative z-10 w-full h-full object-contain drop-shadow-2xl"
+                src={conceptDiagram} 
+                alt="SingaPourApps Brand Philosophy Diagram" 
+                className="w-full h-auto object-cover"
               />
             </motion.div>
           </div>
           
-          <div className="lg:w-2/3">
+          <div className="lg:w-1/2">
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
