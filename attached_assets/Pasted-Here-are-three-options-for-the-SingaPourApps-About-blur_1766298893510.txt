@@ -1,0 +1,32 @@
+Here are three options for the SingaPourApps "About" blurb, ranging from punchy to explanatory.
+
+Option 1: The Punchy "Hook" (Best for a gallery homepage header)
+Stop Watching Tutorials. Start Running Models.
+
+Welcome to SingaPourApps, the home of Executable Engineering for SWMM. We believe that complex hydraulic challenges cannot be solved by passively watching videos using "perfect" demo data. You need tools that work on your messy, real-world projects.
+
+Move beyond static blogs. Our apps don't just teach you concepts; they execute them directly on your uploaded .inp files. Less time context-switching, more time pouring results.
+
+Option 2: The "Philosophy" Explanation (Best for a dedicated "About" page)
+About SingaPourApps: Fluid Intelligence for Your Models
+
+In the world of hydrology, static knowledge isn't enough. A blog post can define a surcharge, but it can't find the fifty nodes in your specific model that are about to flood.
+
+SingaPourApps was built on a simple premise: Engineering expertise should be executable.
+
+We are moving away from the passive consumption of tutorials and toward Executable Engineering. By leveraging the text-based nature of SWMM5, we turn complex workflows into active web apps. You don't have to remember the ten steps to audit your rainfall data—you just need the app that does it for you automatically.
+
+Inspired by world-class standards in water management, we provide tools that transform static data into a dynamic flow of insights. Don’t just manage the rain; model the storm actively.
+
+Option 3: The Brand-Focused (Playful but Professional)
+SingaPourApps: Where Data Meets Discharge.
+
+Why SingaPourApps? Because hydraulic modeling is an active process, not a spectator sport.
+
+We are bridging the gap between theoretical knowledge (blogs and videos) and practical application. By turning standard SWMM workflows into interactive tools, we take the friction out of modeling.
+
+Singa stands for the gold standard of high-tech, efficient water management we aspire to.
+
+Pour is what you do: taking raw rainfall data and converting it into actionable results.
+
+Upload your model. Let the insights pour.
