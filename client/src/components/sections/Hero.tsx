@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CloudRain, Activity, Download } from "lucide-react";
 import heroBg from "@assets/generated_images/abstract_digital_water_flow_hero_background.png";
@@ -44,13 +45,17 @@ export default function Hero() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-brand-blue hover:bg-blue-700 text-white rounded-full px-8 h-12 text-base shadow-xl shadow-blue-500/20 group">
-                  Start Modeling
-                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
-                <Button variant="outline" size="lg" className="rounded-full px-8 h-12 text-base border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800">
-                  Read Philosophy
-                </Button>
+                <Link href="/tools">
+                  <Button size="lg" className="bg-brand-blue hover:bg-blue-700 text-white rounded-full px-8 h-12 text-base shadow-xl shadow-blue-500/20 group" data-testid="button-start-modeling">
+                    Start Modeling
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
+                <a href="#about">
+                  <Button variant="outline" size="lg" className="rounded-full px-8 h-12 text-base border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800" data-testid="button-read-philosophy">
+                    Read Philosophy
+                  </Button>
+                </a>
               </div>
             </motion.div>
           </div>
